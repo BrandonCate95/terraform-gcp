@@ -1,0 +1,23 @@
+{
+  "name": "terraform-pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier-watch": "onchange '**/*.js' -- prettier --write {{changed}}"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@qball/execute-scripts": "^1.0.0",
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "sys": "0.0.1",
+    "validate": "^4.5.1"
+  },
+  "devDependencies": {
+    "onchange": "^6.0.0",
+    "prettier": "1.18.2"
+  }
+}
